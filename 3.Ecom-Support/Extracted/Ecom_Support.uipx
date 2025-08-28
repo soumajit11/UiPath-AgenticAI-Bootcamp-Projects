@@ -1,0 +1,12 @@
+{
+  "DocVersion": "1.0.0",
+  "StudioMinVersion": "2025.04.0",
+  "SolutionId": "bbab4dea-0981-49c3-85ab-08dddaaf3a36",
+  "Projects": [
+    {
+      "Type": "Agent",
+      "ProjectRelativePath": "EcomSupportAgent/project.uiproj",
+      "Id": "12d954ea-bf59-4751-8b98-5565720864b0"
+    }
+  ]
+}

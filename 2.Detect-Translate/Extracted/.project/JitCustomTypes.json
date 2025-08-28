@@ -1,0 +1,16 @@
+{
+  "version": "3.0.0.0",
+  "bundleHash": "ZSCgqTDadotEyQTAs9qdVXiqgjUoX56S7OH3K1Hk",
+  "discardedAssemblyNames": [],
+  "discardedAssemblyReplacements": {},
+  "assembliesJitInfo": {
+    "CECEABED7C5_language.y9oDbqfhFE1XWiYf4bE6kx": {
+      "createdAt": "2025-08-19T14:25:46.5391815+00:00",
+      "providerName": "CustomEntities",
+      "rootNamespace": "UiPath.IntegrationService.Activities.SWEntities.CECEABED7C5_languageminus_signdetection_Create.Bundle",
+      "typeNames": [
+        "languageminus_signdetection_Create"
+      ]
+    }
+  }
+}

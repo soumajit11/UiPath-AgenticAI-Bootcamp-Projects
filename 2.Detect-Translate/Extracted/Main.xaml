@@ -1,0 +1,132 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Main"
+ xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities"
+ xmlns:isactr="http://schemas.uipath.com/workflow/integration-service-activities/isactr"
+ xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+ xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation"
+ xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation"
+ xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib"
+ xmlns:ui="http://schemas.uipath.com/workflow/activities"
+ xmlns:uiascb="clr-namespace:UiPath.IntegrationService.Activities.SWEntities.CECEABED7C5_languageminus_signdetection_Create.Bundle;assembly=CECEABED7C5_language.y9oDbqfhFE1XWiYf4bE6kx"
+ xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <scg:List x:TypeArguments="x:String" Capacity="26">
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Activities</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>UiPath.IntegrationService.Activities.Runtime.Models.FilterBuilder</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>UiPath.IntegrationService.Activities.Runtime.Models</x:String>
+      <x:String>UiPath.IntegrationService.Activities.Runtime.Activities</x:String>
+      <x:String>UiPath.Platform.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>Newtonsoft.Json</x:String>
+      <x:String>Newtonsoft.Json.Linq</x:String>
+      <x:String>UiPath.IntegrationService.Activities.SWEntities.CECEABED7C5_languageminus_signdetection_Create.Bundle</x:String>
+    </scg:List>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <scg:List x:TypeArguments="AssemblyReference" Capacity="16">
+      <AssemblyReference>CECEABED7C5_language.y9oDbqfhFE1XWiYf4bE6kx</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Net.Primitives</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>Newtonsoft.Json</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>UiPath.IntegrationService.Activities.Runtime</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+    </scg:List>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence sap:VirtualizedContainerService.HintSize="356,732" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="uiascb:languageminus_signdetection_Create" Default="[new UiPath.IntegrationService.Activities.SWEntities.CECEABED7C5_languageminus_signdetection_Create.Bundle.languageminus_signdetection_Create]" Name="detectLanguageObject">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:String x:Key="SourceIdRef">ConnectorActivity_1</x:String>
+            <x:String x:Key="SourcePropertyName">Jit_languageminus_signdetection</x:String>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </Variable>
+      <Variable x:TypeArguments="x:String" Name="translatedText">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:String x:Key="SourceIdRef">ConnectorActivity_2</x:String>
+            <x:String x:Key="SourcePropertyName">out_translatedText</x:String>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </Variable>
+      <Variable x:TypeArguments="x:String" Name="detectedLanguage">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:String x:Key="SourceIdRef">ConnectorActivity_1</x:String>
+            <x:String x:Key="SourcePropertyName">out_language</x:String>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </Variable>
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <ui:ManualTrigger Result="{x:Null}" DisplayName="Manual Trigger" sap2010:WorkflowViewState.IdRef="ManualTrigger_1" />
+    <isactr:ConnectorActivity Configuration="H4sIAAAAAAAAA41UYW/aMBD9K5Y/pxlMa6ch9UMJdGNrBxqs3TRVlUkO4hHszD63ZYj/vjNxGC3ZWvEB7jg/v/fuzmt+LqHIbKIVCqnA8M6aj0GYNBfTAqo/eefHTcQHqnS4S6z5Z7EE3uEID8gj3pO2LMQqJCchCTY1skSplU/mwHw1m2nD7nOZ5gwpVQg1d2IOTFqGmk2BZYCQImQxQUxWpQe0aKSaV5ByTmjrTcS/wC8nDWS8g8ZBVEm50KkIF3Z1tuIboj502Mi9vvqAfy8wYPsVB2Kyp1VNhMfa4NBk3tl2RRks8s5MFBZ8bEutLNQS6jhxRuC/lVWCCH2oEqHuhK0KN9FO2keJtzWto4qoP9oslF3UPdDTnxQ3qjWBWqhhaTUydtvEAyuibZpqZjIDlQKzqTaUFSp73PVUZ/u+fZUjgXk8UAhzs5U7BnMnU4jPSMGdRAk2Hl/3FVY/k37SP+v2e2+T453epVTO3vo52Qm/TQyQoXHXqayA+PnKiDUhx6t3ujf9NcvP++1v1/L77M20f7J4iNgVGEuHT9txy3/otCvQGThV4NCIImIjNy1k+glWE70AdapcUfDn5+GFjafttNTxbXUYhZuNX1mLgswfCUPtRuLo1ztwJbQtWwKj7VekXhuiR2knS+rBUfgS0mQLKgr+r0Kj6gklKtt5eLJSj2buA2J5CZhrIsdHmvQSOa+qkL8hq4GbR9LTE2kO5IJeuPJKFGRYtf9Vvmv0vQUzQFiG/MjIpTArEhOerpFIFwS1L7x98lh5uLwaP/Ye1NmA/Z24/cp9lJNWfLxz4L+b9SKfhiWYutPVGB6YNxxPuBeEOUWvGlF2V3Y4+PhSPIwoHJPXvPO61SJIYbsEv6AXKsmp2hsaBtC/3N1Cp4utdZs/kdEuRyAGAAA=" ConnectionId="c8267628-3a2f-4e58-b384-2beceabed7c5" DisplayName="Detect Language" sap2010:WorkflowViewState.IdRef="ConnectorActivity_1" UiPathActivityTypeId="a5718756-c0e8-37e8-b2b4-5f9bd0e3896f">
+      <isactr:ConnectorActivity.FieldObjects>
+        <isactr:FieldObject Name="text" Type="FieldArgument">
+          <isactr:FieldObject.Value>
+            <InArgument x:TypeArguments="x:String">Erfolg kommt nicht über Nacht – er entsteht täglich durch kleine, konsequente Anstrengungen, die sich zu großen Ergebnissen summieren.</InArgument>
+          </isactr:FieldObject.Value>
+        </isactr:FieldObject>
+        <isactr:FieldObject Name="out_language" Type="FieldArgument">
+          <isactr:FieldObject.Value>
+            <OutArgument x:TypeArguments="x:String">[detectedLanguage]</OutArgument>
+          </isactr:FieldObject.Value>
+        </isactr:FieldObject>
+        <isactr:FieldObject Name="Jit_languageminus_signdetection" Type="FieldArgument">
+          <isactr:FieldObject.Value>
+            <OutArgument x:TypeArguments="uiascb:languageminus_signdetection_Create">[detectLanguageObject]</OutArgument>
+          </isactr:FieldObject.Value>
+        </isactr:FieldObject>
+      </isactr:ConnectorActivity.FieldObjects>
+    </isactr:ConnectorActivity>
+    <ui:LogMessage DisplayName="Log Message" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[string.Format(&quot;{0}&quot;, detectedLanguage)]" />
+    <isactr:ConnectorActivity Configuration="H4sIAAAAAAAAA41W23LbNhD9FQ6f0hnVddppmtGbJd9U25HGspyHjh9W5JqECQLMArBCefw5/ZL+WJfUJQLgNH3QiDjYPXsFFi/puUCZm7FWFoRCSocv6RyBshKWEjeb6fCvh0E6UY2ze+Al/QQ1psNUdPAdfrXpID0VppHQbnd2IJqMRGOFVlswsTpZYmIJlJFgMT9isbu26ZSMJaEKXs812SnlnUd/9CSiYP2X10F6i1+cIMzToSWHg00E1zqDrYmRztv0dbD3UIIqHBQYOXh9sOE5OW8wE49tstOMHGbgBz5/HKRnytV9pu5Buk7u5JFEBczRe7dH6xJIZD5GsAwhY9hrgz64RlqCeAIlPHzkZMGkoHwUVQEykNRGhXJjsCBDbI1Z6SGfURofOWU3AugCqQ6YLgix8pAzVchQcd7EZGfG6sjZEZgvzs/KDMmEYudCRXznhCoIakJRBJyxLGS7cE9A3G8eeIlLwpUPCZX7QmPSrBfQXTr1RrlOqMYo3AmXJsJUrhVGIf8JnMOwYy5QUxFKXsEaKj/sq7LmNvaFlIIcfEwThlyOcs5h8o4/uPRP4id/u6WiXXvQNWh/LWzpIIr8GuxziN1wnxZg2gDMMI8bpZNt+Vf7qFaFjjJ601W3FLF+cMooOpGfsAmP2KmzQZd90rTCrgrJu5Gu6n/+ln6Sprnw8zxz6olvBB/T0aGZgSmtDqTIusKxm2yLYC0CU4f7m28IJG51HRfj1pmo3+ZSP0MVQXEPz5kxyNGJXMZG5ny5RdiKYwgQzKPbYwWlCEzcQS2kj6Dk0H2ohEDLURWyL9qidP7hWFTE4zN0dkG5T79YL4O7716gVfHFPi7F5ug+HMy+9FpDPmpP8RGctLvxd6a6Sb0wSNNnJBI57nZm2ojtRJuRqIG69v2f45PtTp19c+J/G4Nvj/2DKfnmC6D0JynLHCWfSyRMjGsa7kHMB4llKd07kKyElN/Gr7BIvaJQPJU7MWga0g1fn5YZekOJpgRkw08YtD+Y079tEoKG8/kI0mC3No1WZp/G3XrsesPfy9smXcw+MTfcCzutXmyj8/rw2j2jjAWV4YyvmBo5GNNV9r4bWT3N+6Pjo2Nm4ReZwsxqusKWYScavpF+3v6BoLxioZPMimdh222AOw+5dssnVg4LxhuX1jY3aEud94efw2afuiikWGO+4wtL2fkDWYkcr65c03ep2bzGNviI9Io7cGKx3uLbjmPvt+/HGWQVv6UOI33/wQ91a3YhZhxkcoHqZJJsXRJs70DykOXD8dHv+5C/04v/lZJp03XUhm3M8+yNPE3nd2kXgS159cuh8v4NOUxR8foGvs54OedspsNfj4+ZCcyIWStuvXHJ0l3itp3WnZ+R1FnVp+j1X8LibBiNCwAA" ConnectionId="c8267628-3a2f-4e58-b384-2beceabed7c5" DisplayName="Translate" sap2010:WorkflowViewState.IdRef="ConnectorActivity_2" UiPathActivityTypeId="44a6e8db-407e-373a-b4eb-84997a6c83fd">
+      <isactr:ConnectorActivity.FieldObjects>
+        <isactr:FieldObject Name="inputText" Type="FieldArgument">
+          <isactr:FieldObject.Value>
+            <InArgument x:TypeArguments="x:String">Erfolg kommt nicht über Nacht – er entsteht täglich durch kleine, konsequente Anstrengungen, die sich zu großen Ergebnissen summieren.</InArgument>
+          </isactr:FieldObject.Value>
+        </isactr:FieldObject>
+        <isactr:FieldObject Name="language" Type="FieldArgument">
+          <isactr:FieldObject.Value>
+            <InArgument x:TypeArguments="x:String">English</InArgument>
+          </isactr:FieldObject.Value>
+        </isactr:FieldObject>
+        <isactr:FieldObject Name="out_translatedText" Type="FieldArgument">
+          <isactr:FieldObject.Value>
+            <OutArgument x:TypeArguments="x:String">[translatedText]</OutArgument>
+          </isactr:FieldObject.Value>
+        </isactr:FieldObject>
+      </isactr:ConnectorActivity.FieldObjects>
+    </isactr:ConnectorActivity>
+    <ui:LogMessage DisplayName="Log Message 1" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="Info" Message="[string.Format(&quot;{0}&quot;, translatedText)]" />
+  </Sequence>
+</Activity>

@@ -1,0 +1,6 @@
+{
+  "ProjectType": "Process",
+  "Name": "Summarize_Text",
+  "Description": "This project helps in summarizing large text\n",
+  "MainFile": "Main.xaml"
+}

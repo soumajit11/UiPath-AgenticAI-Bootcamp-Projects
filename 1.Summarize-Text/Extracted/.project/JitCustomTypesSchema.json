@@ -1,0 +1,130 @@
+{
+  "ExportedBy": "StudioWeb",
+  "BundleHash": "jVAHMeZakvsld7nYIoVpvAuntvoxnGplwRPrb4Q",
+  "Version": "1.0.0.0",
+  "JitAssemblyCompilerCommands": [
+    {
+      "ProviderName": "CustomEntities",
+      "BundleOptions": {
+        "EntitiesBundle": {
+          "Types": {
+            "summarise_Create": {
+              "Name": "summarise_Create",
+              "Properties": [
+                {
+                  "Name": "summary",
+                  "Type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  },
+                  "Attributes": {
+                    "Values": [
+                      {
+                        "Type": {
+                          "ClrType": "System.ComponentModel.CategoryAttribute, System.ComponentModel.Primitives"
+                        },
+                        "ConstructorArguments": [
+                          {
+                            "Value": "\"Simplified\"",
+                            "Type": {
+                              "ClrType": "System.String, System.Private.CoreLib"
+                            }
+                          }
+                        ],
+                        "NamedArguments": []
+                      },
+                      {
+                        "Type": {
+                          "ClrType": "System.ComponentModel.DataAnnotations.DisplayAttribute, System.ComponentModel.Annotations"
+                        },
+                        "ConstructorArguments": [],
+                        "NamedArguments": [
+                          {
+                            "Name": "Order",
+                            "Value": {
+                              "Value": "7",
+                              "Type": {
+                                "ClrType": "System.Int32, System.Private.CoreLib"
+                              }
+                            }
+                          },
+                          {
+                            "Name": "Name",
+                            "Value": {
+                              "Value": "\"summary\"",
+                              "Type": {
+                                "ClrType": "System.String, System.Private.CoreLib"
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "Name": "detectInputLanguage",
+                  "Type": {
+                    "ClrType": "System.Nullable`1[[System.Boolean, System.Private.CoreLib]], System.Private.CoreLib"
+                  },
+                  "Attributes": {
+                    "Values": [
+                      {
+                        "Type": {
+                          "ClrType": "System.ComponentModel.CategoryAttribute, System.ComponentModel.Primitives"
+                        },
+                        "ConstructorArguments": [
+                          {
+                            "Value": "\"Simplified\"",
+                            "Type": {
+                              "ClrType": "System.String, System.Private.CoreLib"
+                            }
+                          }
+                        ],
+                        "NamedArguments": []
+                      },
+                      {
+                        "Type": {
+                          "ClrType": "System.ComponentModel.DataAnnotations.DisplayAttribute, System.ComponentModel.Annotations"
+                        },
+                        "ConstructorArguments": [],
+                        "NamedArguments": [
+                          {
+                            "Name": "Order",
+                            "Value": {
+                              "Value": "9",
+                              "Type": {
+                                "ClrType": "System.Int32, System.Private.CoreLib"
+                              }
+                            }
+                          },
+                          {
+                            "Name": "Name",
+                            "Value": {
+                              "Value": "\"detectInputLanguage\"",
+                              "Type": {
+                                "ClrType": "System.String, System.Private.CoreLib"
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              ],
+              "BaseType": null
+            }
+          },
+          "Version": 1
+        },
+        "Hash": "m52QGG1J3el/iNO3WhXuHqiJXVKELc79am/3AlatoRjKNjlnHGk/WYcYlHQDPMy9rOe4VPRT0l7do7fF6Cr25Q==",
+        "BundleName": "CECEABED7C5_summarise_Create"
+      },
+      "EntityAssemblyKey": {
+        "Name": "UiPath.IntegrationService.Activities.SWEntities.CECEABED7C5_summarise_Create",
+        "Hash": "bTUyUUdHMUozZWwvaU5PM1doWHVIcWlKWFZLRUxjNzlhbS8zQWxhdG9SaktOamxuSEdrL1dZY1lsSFFEUE15OXJPZTRWUFJUMGw3ZG83ZkY2Q3IyNVE9PQ",
+        "AssemblyName": "CECEABED7C5_summaris.NPbjj98SpF1TJmmxVOq9h2"
+      }
+    }
+  ]
+}

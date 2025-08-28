@@ -1,0 +1,167 @@
+{
+  "ExportedBy": "StudioWeb",
+  "BundleHash": "rDdvkc4GAsnsulJuGS74kaqyrxFCUkmZrY6bRppzl64",
+  "Version": "1.0.0.0",
+  "JitAssemblyCompilerCommands": [
+    {
+      "ProviderName": "CustomEntities",
+      "BundleOptions": {
+        "EntitiesBundle": {
+          "Types": {
+            "Resume_classifier_Input": {
+              "Name": "Resume_classifier_Input",
+              "Properties": [
+                {
+                  "Name": "ResumeText",
+                  "Type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  },
+                  "Attributes": {
+                    "Values": [
+                      {
+                        "Type": {
+                          "ClrType": "Newtonsoft.Json.JsonPropertyAttribute, Newtonsoft.Json"
+                        },
+                        "ConstructorArguments": [
+                          {
+                            "Value": "\"ResumeText\"",
+                            "Type": {
+                              "ClrType": "System.String, System.Private.CoreLib"
+                            }
+                          }
+                        ],
+                        "NamedArguments": []
+                      },
+                      {
+                        "Type": {
+                          "ClrType": "System.ComponentModel.DisplayNameAttribute, System.ComponentModel.Primitives"
+                        },
+                        "ConstructorArguments": [
+                          {
+                            "Value": "\"ResumeText\"",
+                            "Type": {
+                              "ClrType": "System.String, System.Private.CoreLib"
+                            }
+                          }
+                        ],
+                        "NamedArguments": []
+                      }
+                    ]
+                  }
+                }
+              ],
+              "BaseType": null
+            }
+          },
+          "Version": 1
+        },
+        "Hash": "-223554157",
+        "BundleName": "Resume_classifier_Input"
+      },
+      "EntityAssemblyKey": {
+        "Name": "UiPath.System.Activities.ViewModels.SWEntities.Resume_classifier_Input",
+        "Hash": "LTIyMzU1NDE1Nw",
+        "AssemblyName": "Resume_classifier_In.IFQZM1VcQRR1uvujf307WK92"
+      }
+    },
+    {
+      "ProviderName": "CustomEntities",
+      "BundleOptions": {
+        "EntitiesBundle": {
+          "Types": {
+            "Resume_classifier_Output": {
+              "Name": "Resume_classifier_Output",
+              "Properties": [
+                {
+                  "Name": "summary",
+                  "Type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  },
+                  "Attributes": {
+                    "Values": [
+                      {
+                        "Type": {
+                          "ClrType": "Newtonsoft.Json.JsonPropertyAttribute, Newtonsoft.Json"
+                        },
+                        "ConstructorArguments": [
+                          {
+                            "Value": "\"summary\"",
+                            "Type": {
+                              "ClrType": "System.String, System.Private.CoreLib"
+                            }
+                          }
+                        ],
+                        "NamedArguments": []
+                      },
+                      {
+                        "Type": {
+                          "ClrType": "System.ComponentModel.DisplayNameAttribute, System.ComponentModel.Primitives"
+                        },
+                        "ConstructorArguments": [
+                          {
+                            "Value": "\"summary\"",
+                            "Type": {
+                              "ClrType": "System.String, System.Private.CoreLib"
+                            }
+                          }
+                        ],
+                        "NamedArguments": []
+                      }
+                    ]
+                  }
+                },
+                {
+                  "Name": "recommendation",
+                  "Type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  },
+                  "Attributes": {
+                    "Values": [
+                      {
+                        "Type": {
+                          "ClrType": "Newtonsoft.Json.JsonPropertyAttribute, Newtonsoft.Json"
+                        },
+                        "ConstructorArguments": [
+                          {
+                            "Value": "\"recommendation\"",
+                            "Type": {
+                              "ClrType": "System.String, System.Private.CoreLib"
+                            }
+                          }
+                        ],
+                        "NamedArguments": []
+                      },
+                      {
+                        "Type": {
+                          "ClrType": "System.ComponentModel.DisplayNameAttribute, System.ComponentModel.Primitives"
+                        },
+                        "ConstructorArguments": [
+                          {
+                            "Value": "\"recommendation\"",
+                            "Type": {
+                              "ClrType": "System.String, System.Private.CoreLib"
+                            }
+                          }
+                        ],
+                        "NamedArguments": []
+                      }
+                    ]
+                  }
+                }
+              ],
+              "BaseType": null
+            }
+          },
+          "Version": 1
+        },
+        "Hash": "-1837356881",
+        "BundleName": "Resume_classifier_Output"
+      },
+      "EntityAssemblyKey": {
+        "Name": "UiPath.System.Activities.ViewModels.SWEntities.Resume_classifier_Output",
+        "Hash": "LTE4MzczNTY4ODE",
+        "AssemblyName": "Resume_classifier_Ou.lBMaf3IAMUB1fbEQK2ko8t54"
+      }
+    }
+  ]
+}

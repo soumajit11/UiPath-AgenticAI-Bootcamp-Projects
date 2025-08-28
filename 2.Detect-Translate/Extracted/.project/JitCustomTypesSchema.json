@@ -1,0 +1,134 @@
+{
+  "ExportedBy": "StudioWeb",
+  "BundleHash": "ZSCgqTDadotEyQTAs9qdVXiqgjUoX56S7OH3K1Hk",
+  "Version": "1.0.0.0",
+  "JitAssemblyCompilerCommands": [
+    {
+      "ProviderName": "CustomEntities",
+      "BundleOptions": {
+        "EntitiesBundle": {
+          "Types": {
+            "languageminus_signdetection_Create": {
+              "Name": "languageminus_signdetection_Create",
+              "Properties": [
+                {
+                  "Name": "confidenceScore",
+                  "Type": {
+                    "ClrType": "System.Nullable`1[[System.Int64, System.Private.CoreLib]], System.Private.CoreLib"
+                  },
+                  "Attributes": {
+                    "Values": [
+                      {
+                        "Type": {
+                          "ClrType": "System.ComponentModel.DataAnnotations.DisplayAttribute, System.ComponentModel.Annotations"
+                        },
+                        "ConstructorArguments": [],
+                        "NamedArguments": [
+                          {
+                            "Name": "Name",
+                            "Value": {
+                              "Value": "\"confidenceScore\"",
+                              "Type": {
+                                "ClrType": "System.String, System.Private.CoreLib"
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "Name": "language",
+                  "Type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  },
+                  "Attributes": {
+                    "Values": [
+                      {
+                        "Type": {
+                          "ClrType": "System.ComponentModel.CategoryAttribute, System.ComponentModel.Primitives"
+                        },
+                        "ConstructorArguments": [
+                          {
+                            "Value": "\"Simplified\"",
+                            "Type": {
+                              "ClrType": "System.String, System.Private.CoreLib"
+                            }
+                          }
+                        ],
+                        "NamedArguments": []
+                      },
+                      {
+                        "Type": {
+                          "ClrType": "System.ComponentModel.DataAnnotations.DisplayAttribute, System.ComponentModel.Annotations"
+                        },
+                        "ConstructorArguments": [],
+                        "NamedArguments": [
+                          {
+                            "Name": "Order",
+                            "Value": {
+                              "Value": "1",
+                              "Type": {
+                                "ClrType": "System.Int32, System.Private.CoreLib"
+                              }
+                            }
+                          },
+                          {
+                            "Name": "Name",
+                            "Value": {
+                              "Value": "\"language\"",
+                              "Type": {
+                                "ClrType": "System.String, System.Private.CoreLib"
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "Name": "languageCode",
+                  "Type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  },
+                  "Attributes": {
+                    "Values": [
+                      {
+                        "Type": {
+                          "ClrType": "System.ComponentModel.DataAnnotations.DisplayAttribute, System.ComponentModel.Annotations"
+                        },
+                        "ConstructorArguments": [],
+                        "NamedArguments": [
+                          {
+                            "Name": "Name",
+                            "Value": {
+                              "Value": "\"languageCode\"",
+                              "Type": {
+                                "ClrType": "System.String, System.Private.CoreLib"
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              ],
+              "BaseType": null
+            }
+          },
+          "Version": 1
+        },
+        "Hash": "LpjiVaXI9f/KiHj7kWR6S3beI+x/2ajItrFDN9eXWbOFcZz6tOQXw4GStBAxFcc9A7WVqcUH9nXRgvsOUc9QFw==",
+        "BundleName": "CECEABED7C5_languageminus_signdetection_Create"
+      },
+      "EntityAssemblyKey": {
+        "Name": "UiPath.IntegrationService.Activities.SWEntities.CECEABED7C5_languageminus_signdetection_Create",
+        "Hash": "THBqaVZhWEk5Zi9LaUhqN2tXUjZTM2JlSSt4LzJhakl0ckZETjllWFdiT0ZjWno2dE9RWHc0R1N0QkF4RmNjOUE3V1ZxY1VIOW5YUmd2c09VYzlRRnc9PQ",
+        "AssemblyName": "CECEABED7C5_language.y9oDbqfhFE1XWiYf4bE6kx"
+      }
+    }
+  ]
+}

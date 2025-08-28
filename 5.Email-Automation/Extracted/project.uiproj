@@ -1,0 +1,6 @@
+{
+  "ProjectType": "Process",
+  "Name": "Email_Automation",
+  "Description": null,
+  "MainFile": "Main.xaml"
+}

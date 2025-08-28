@@ -1,0 +1,12 @@
+{
+  "DocVersion": "1.0.0",
+  "StudioMinVersion": "2025.04.0",
+  "SolutionId": "e2bb1c00-c19d-4188-d1df-08dde03ef0d1",
+  "Projects": [
+    {
+      "Type": "Agent",
+      "ProjectRelativePath": "Stock Advisor/project.uiproj",
+      "Id": "46d2f80d-46cc-4880-aca2-1f8d8b11a21d"
+    }
+  ]
+}

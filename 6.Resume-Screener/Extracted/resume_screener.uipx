@@ -1,0 +1,12 @@
+{
+  "DocVersion": "1.0.0",
+  "StudioMinVersion": "2025.04.0",
+  "SolutionId": "f5384d4a-642f-42fb-7dc5-08ddd4de6423",
+  "Projects": [
+    {
+      "Type": "Agent",
+      "ProjectRelativePath": "Resume Screener/project.uiproj",
+      "Id": "50fe2c4b-58d0-411b-b853-896db6bf9b31"
+    }
+  ]
+}

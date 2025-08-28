@@ -1,0 +1,46 @@
+{
+  "version": "3.0.0.0",
+  "bundleHash": "rDdvkc4GAsnsulJuGS74kaqyrxFCUkmZrY6bRppzl64",
+  "discardedAssemblyNames": [
+    "Resume_classifier_Ou.nIpryrd9B1rM7d71bh4wh1",
+    "Resume_classifier_In.tEnZM3TibrE1MDji21EGHlj3"
+  ],
+  "discardedAssemblyReplacements": {
+    "Resume_classifier_Ou.nIpryrd9B1rM7d71bh4wh1": "Resume_classifier_Ou.lBMaf3IAMUB1fbEQK2ko8t54",
+    "Resume_classifier_In.tEnZM3TibrE1MDji21EGHlj3": "Resume_classifier_In.IFQZM1VcQRR1uvujf307WK92"
+  },
+  "assembliesJitInfo": {
+    "Resume_classifier_In.tEnZM3TibrE1MDji21EGHlj3": {
+      "createdAt": "2025-08-08T14:38:15.1135087+00:00",
+      "providerName": "CustomEntities",
+      "rootNamespace": "UiPath.System.Activities.ViewModels.SWEntities.Resume_classifier_Input.Bundle",
+      "typeNames": [
+        "Resume_classifier_Input"
+      ]
+    },
+    "Resume_classifier_Ou.nIpryrd9B1rM7d71bh4wh1": {
+      "createdAt": "2025-08-08T14:38:15.8988023+00:00",
+      "providerName": "CustomEntities",
+      "rootNamespace": "UiPath.System.Activities.ViewModels.SWEntities.Resume_classifier_Output.Bundle",
+      "typeNames": [
+        "Resume_classifier_Output"
+      ]
+    },
+    "Resume_classifier_In.IFQZM1VcQRR1uvujf307WK92": {
+      "createdAt": "2025-08-28T04:46:42.3127597+00:00",
+      "providerName": "CustomEntities",
+      "rootNamespace": "UiPath.System.Activities.ViewModels.SWEntities.Resume_classifier_Input.Bundle",
+      "typeNames": [
+        "Resume_classifier_Input"
+      ]
+    },
+    "Resume_classifier_Ou.lBMaf3IAMUB1fbEQK2ko8t54": {
+      "createdAt": "2025-08-28T04:46:43.1101693+00:00",
+      "providerName": "CustomEntities",
+      "rootNamespace": "UiPath.System.Activities.ViewModels.SWEntities.Resume_classifier_Output.Bundle",
+      "typeNames": [
+        "Resume_classifier_Output"
+      ]
+    }
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "ProjectType": "Process",
+  "Name": "Detect_Translate",
+  "Description": "This is used to detect the language and translate it into english.\n",
+  "MainFile": "Main.xaml"
+}

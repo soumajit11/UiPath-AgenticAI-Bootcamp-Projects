@@ -1,0 +1,109 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Main"
+ xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities"
+ xmlns:isactr="http://schemas.uipath.com/workflow/integration-service-activities/isactr"
+ xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+ xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation"
+ xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation"
+ xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib"
+ xmlns:ui="http://schemas.uipath.com/workflow/activities"
+ xmlns:uiascb="clr-namespace:UiPath.IntegrationService.Activities.SWEntities.CECEABED7C5_summarise_Create.Bundle;assembly=CECEABED7C5_summaris.NPbjj98SpF1TJmmxVOq9h2"
+ xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <scg:List x:TypeArguments="x:String" Capacity="26">
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Activities</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>UiPath.IntegrationService.Activities.Runtime.Models.FilterBuilder</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>UiPath.IntegrationService.Activities.Runtime.Models</x:String>
+      <x:String>UiPath.IntegrationService.Activities.Runtime.Activities</x:String>
+      <x:String>UiPath.Platform.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>Newtonsoft.Json</x:String>
+      <x:String>Newtonsoft.Json.Linq</x:String>
+      <x:String>UiPath.IntegrationService.Activities.SWEntities.CECEABED7C5_summarise_Create.Bundle</x:String>
+    </scg:List>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <scg:List x:TypeArguments="AssemblyReference" Capacity="16">
+      <AssemblyReference>CECEABED7C5_summaris.NPbjj98SpF1TJmmxVOq9h2</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Net.Primitives</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>Newtonsoft.Json</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>UiPath.IntegrationService.Activities.Runtime</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+    </scg:List>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence sap:VirtualizedContainerService.HintSize="356,732" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="uiascb:summarise_Create" Default="[new UiPath.IntegrationService.Activities.SWEntities.CECEABED7C5_summarise_Create.Bundle.summarise_Create]" Name="summarizeText">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:String x:Key="SourceIdRef">ConnectorActivity_3</x:String>
+            <x:String x:Key="SourcePropertyName">Jit_summarise</x:String>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </Variable>
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <ui:ManualTrigger Result="{x:Null}" DisplayName="Manual Trigger" sap2010:WorkflowViewState.IdRef="ManualTrigger_1" />
+    <ui:LogMessage DisplayName="Log Message 1" sap2010:WorkflowViewState.IdRef="LogMessage_3" Level="Info" Message="[&quot;&quot;&quot;Automation Started and Reading the Input&quot;&quot;&quot;]" />
+    <isactr:ConnectorActivity Configuration="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" ConnectionId="c8267628-3a2f-4e58-b384-2beceabed7c5" DisplayName="Summarize Text" sap2010:WorkflowViewState.IdRef="ConnectorActivity_3" UiPathActivityTypeId="d82ffa74-9757-317d-8c48-1a3a1b4be976">
+      <isactr:ConnectorActivity.FieldObjects>
+        <isactr:FieldObject Name="prompt" Type="FieldArgument">
+          <isactr:FieldObject.Value>
+            <InArgument x:TypeArguments="x:String">Artificial intelligence is a field of science concerned with building computers and machines that can reason, learn, and act in such a way that would normally require human intelligence or that involves data whose scale exceeds what humans can analyze.</InArgument>
+          </isactr:FieldObject.Value>
+        </isactr:FieldObject>
+        <isactr:FieldObject Name="detectInputLanguage" Type="FieldArgument">
+          <isactr:FieldObject.Value>
+            <InArgument x:TypeArguments="x:Boolean">True</InArgument>
+          </isactr:FieldObject.Value>
+        </isactr:FieldObject>
+        <isactr:FieldObject Name="outputLanguage" Type="FieldArgument" />
+        <isactr:FieldObject Name="maxWordCount" Type="FieldArgument" />
+        <isactr:FieldObject Name="summaryFormat" Type="FieldArgument">
+          <isactr:FieldObject.Value>
+            <InArgument x:TypeArguments="x:String">Paragraph</InArgument>
+          </isactr:FieldObject.Value>
+        </isactr:FieldObject>
+        <isactr:FieldObject Name="out_summary" Type="FieldArgument">
+          <isactr:FieldObject.Value>
+            <OutArgument x:TypeArguments="x:String" />
+          </isactr:FieldObject.Value>
+        </isactr:FieldObject>
+        <isactr:FieldObject Name="Jit_summarise" Type="FieldArgument">
+          <isactr:FieldObject.Value>
+            <OutArgument x:TypeArguments="uiascb:summarise_Create">[summarizeText]</OutArgument>
+          </isactr:FieldObject.Value>
+        </isactr:FieldObject>
+      </isactr:ConnectorActivity.FieldObjects>
+    </isactr:ConnectorActivity>
+    <ui:LogMessage DisplayName="Log Message" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="Info" Message="[string.Format(&quot;{0}&quot;, summarizeText.summary)]" />
+  </Sequence>
+</Activity>

@@ -1,0 +1,16 @@
+{
+  "version": "3.0.0.0",
+  "bundleHash": "jVAHMeZakvsld7nYIoVpvAuntvoxnGplwRPrb4Q",
+  "discardedAssemblyNames": [],
+  "discardedAssemblyReplacements": {},
+  "assembliesJitInfo": {
+    "CECEABED7C5_summaris.NPbjj98SpF1TJmmxVOq9h2": {
+      "createdAt": "2025-08-04T15:40:14.0923896+00:00",
+      "providerName": "CustomEntities",
+      "rootNamespace": "UiPath.IntegrationService.Activities.SWEntities.CECEABED7C5_summarise_Create.Bundle",
+      "typeNames": [
+        "summarise_Create"
+      ]
+    }
+  }
+}
