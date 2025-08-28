@@ -6,25 +6,30 @@ Each project explores **AI + RPA integration** using UiPath Studio.
 ---
 
 ## 📂 Projects
+
 Here are the projects developed during the bootcamp:
 
-1. [Summarize-Text](Summarize-Text/README.md)  
-2. [Detect-Translate](Detect-Translate/README.md)  
-3. [Ecom-Support](Ecom-Support/README.md)  
-4. [Stock-Advisor-Agent](Stock-Advisor-Agent/README.md)  
-5. [Email-Automation](Email-Automation/README.md)  
-6. [Resume-Screener](Resume-Screener/README.md)  
-7. [Resume-Classifier](Resume-Classifier/README.md)  
-8. [Medical-Assistant](Medical-Assistant/README.md)  
+1. [Summarize-Text](1.Summarize-Text)
+2. [Detect-Translate](2.Detect-Translate)
+3. [Ecom-Support](3.Ecom-Support)
+4. [Stock-Advisor-Agent](4.Stock-Advisor-Agent)
+5. [Email-Automation](5.Email-Automation)
+6. [Resume-Screener](6.Resume-Screener)
+7. [Resume-Classifier](7.Resume-Classifier)
+8. [Medical-Assistant](8.Medical-Assistant)
 
 ---
 
-## ⚡ Tech Stack
-- UiPath Studio / Studio Web
-- RPA Workflows (`.xaml`)
-- Generative AI & APIs
-- Gmail Integration
-- Translation & Summarization Models
+## ⚙️ Tech Stack
+- **UiPath Studio** – Workflow automation  
+- **Generative AI** – AI-powered decision-making  
+- **APIs** – For NLP, translation, and RAG workflows  
+- **Automation Agents** – Orchestrating business tasks  
+
+---
+
+## 📖 About
+All projects demonstrate the power of combining **UiPath Automation** with **AI-driven workflows**, showing how intelligent agents can solve real-world use cases in text summarization, e-commerce, healthcare, and more.
 
 ---
 
